@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Unknown Title</h1>
+        <p>This is an application to load the Exchange history prices in Ragnarok Mobile: Eternal Love and is powered by <a href="https://romexchange.com">https://romexchange.com</a></p>
+      </header>
+      <div class="search-form-container">
+        <input class="form-control txt-search" type="text" placeholder="Search" />
+        <button type="button" class="btn btn-primary btn-submit">Search</button>
+        <select class="form-control dropdown-item-type" name=""></select>
+      </div>
+      <table class="table table-bordered search-result-container">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <script>window.$ = window.jQuery = require('./assets/jquery.min.js');</script>
+    <script type="text/javascript" src="./assets/search.js"></script>
+  </body>
+</html>
